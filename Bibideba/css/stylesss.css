@@ -1,0 +1,39 @@
+body {
+    font-family: "M PLUS 2", sans-serif;
+    background-image: url(../Bibideba/images/watanare_mini_chara.png);
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+    position: relative;
+}
+
+ul.slider li {
+    -webkit-transition-duration:800ms;
+    width: 250px;
+    border: 1px solid #f2f2f2;
+    margin: 1px;
+    display: block;
+}
+
+ul.slider li:hover {
+     margin-left: 30px;
+}
+
+ul.slider li a {
+    -webkit-transition-duration:800ms,800ms,800ms,800ms;
+    background-color: #fff;
+    color: #afafaf;
+    padding: 10px;
+}
+
+ul.slider li a:link, ul.slider li a {
+    display: block;
+    text-decoration: none;
+}
+
+ul.slider li a:hover {
+    background-color: lightblue;
+    color: #fff;
+    padding-left: 30px;
+    z-sledir:2;
+}

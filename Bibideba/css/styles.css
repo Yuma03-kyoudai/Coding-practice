@@ -1,0 +1,74 @@
+body {
+    font-family: "M PLUS 2", sans-serif;
+    background-image: url(../Bibideba/images/ヨーメイ.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 680px;
+    position: relative;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #cccccc;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    height: 1px;
+    margin-bottom: 25px;
+}
+
+#tabs {
+    float: left;
+    width: 100%;
+    background: #d4dae7;
+    font-size: 93%;
+    line-height: normal;
+    border-bottom: 1px solid #333b66;
+}
+
+#tabs ul {
+    margin: 0;
+    padding: 10px 10px 0 50px;
+    list-style: none;
+}
+
+#tabs li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#tabs a {
+    float: left;
+    background: url(tableft.gif) no-repeat right left top;
+    margin: 0;
+    padding: 0 0 0 4px;
+    text-decoration: none;
+}
+
+#tabs a span {
+    float: left;
+    display: block;
+    background: url(tableft.gif) no-repeat right left top;
+    padding: 5px 15px 4px 6px;
+    color: #999;
+}
+
+#tabs a span {float:none;}
+
+#tabs a:hover span {
+    color: #ecb546;
+}
+
+#tabs a:hover {
+    background-position: 0% -42px;
+}
+
+#tabs a:hover span {
+    background-position: 100% -42px;
+}

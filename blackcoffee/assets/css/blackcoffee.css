@@ -1,0 +1,23 @@
+/* ファーストビューセクション */
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* アバウトセクション */
+.about {
+    text-align: center;
+    padding: 30px;
+}
+.about h2 {
+    font-size: clamp(28px, 5vw, 50px);
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Menu */
